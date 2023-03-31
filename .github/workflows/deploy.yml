@@ -9,7 +9,6 @@ env: #Available for all the jobs unless overridden by the jobs
   # workflow environment variable
   MONGODB_DB_NAME: gha-demo  
 jobs:
-  
   test:
     environment: testing
     env:
