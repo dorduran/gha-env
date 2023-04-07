@@ -7,7 +7,7 @@ on:
       - dev
 env: #Available for all the jobs unless overridden by the jobs
   # workflow environment variable
-  # change for trigger
+  # change for trigger, second
   MONGODB_DB_NAME: gha-demo  
 jobs:
   test:
